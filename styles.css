@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.align{
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    text-decoration: none;
+}
+
+.topbar a{
+    color: #fff;
+}
+
+.topbar{
+    background: #E31F26;
+    height: 42px;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.topbar ul{
+    display: flex;
+}
+
+.gap{
+    gap: 20px;
+}
+
+.logo img{
+    width: 100%;
+}
+.logo{
+    width: 230px;
+    padding-top: 13px;
+    padding-bottom: 6px;
+}
+
+nav{
+    background-color: #F8F9FA;
+}
+.navbar li {
+    display: inline;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #000000A6;
+    font-size: 14px;
+    font-weight: 700;
+}
+.navbar li a:hover{
+    color: #000;
+}
+.navbar ul{
+    gap: 20px;
+}
+.main-nav{
+    align-items: center;
+}
+
+.caret-down{
+    font-size: 12px;
+}
+
+.slider{
+    width: auto;
+}
+.slide{
+    position: relative;
+}
+.slide img{
+    background-size: cover;
+}
+.inside{
+    position: absolute;
+    bottom: 20px;
+    left: 30%;
+    text-align: center;
+    padding: 16px;
+    line-height: 32px;
+}
+
+h3{
+    font-weight: 300;
+    font-size: 20px;
+}
+.inside p{
+    font-size: 14px;
+}
+
+.event img{
+    width: 100%;
+}
+.event{
+    width: 33%;
+}
+.contact{
+    width: 64%;
+    margin-bottom: 6px;
+    color: #000;
+    padding: 50px;
+    box-shadow: 1px 6px 10px 3px rgb(224, 224, 224);
+}
+
+h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.contact p{
+    color:#828C96;
+    font-size: 14px;
+    line-height: 27px;
+    margin-bottom: 28px;
+}
+.contact .btn{
+    margin-bottom: 40px;
+}
+
+.btn{
+    display: inline;
+    border: 1px solid #000;
+    background-color: #212529;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 7px;
+    margin-top: 40px;
+}
+.btn a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color:#424649;
+}
+
+.bx-wrapper {
+    border: none;
+}
+
+.bx-wrapper img {
+    width: 100%
+}
+
+.wrap{
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.content{
+    background-color: #F5F5F5;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+.winner-list{
+    flex-basis: 64%;
+}
+.gallery{
+    width: 32%;
+    background-color: #0F6A53;
+    padding: 30px;
+    margin-top: 24px;
+}
+.card1{
+    width: 364px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+.corperate{
+    height: 269px;
+    background: url(image/corperative.jpg);
+}
+.card1 img{
+    height: 58px;
+    width: auto;
+    display: flex;
+}
+.card1 h3{
+    padding: 20px 0 10px 0;
+    font-weight: 500;
+}
+
+.motiv{
+    background: url(image/motivational.jpg);
+    height: 269px;
+    
+}
+
+.brand{
+    background: url(image/branding.jpg);
+    height: 269px;
+    
+}
+
+.music{
+    background: url(image/music.jpg);
+    height: 269px;
+    
+}
+h5{
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+h4{
+    color: #828C96;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 10px;
+}
+.gallery ul{
+    line-height: 30px;
+    padding-bottom: 41px;
+}
+.gallery ul li{
+    font-size: 14px;
+}
+
+.gallery i{
+    margin-right: 6px;
+}
+
+.gallery-img{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    gap: 10px;
+}
+.gallery-img .box{
+    width: 100px;
+    margin-bottom: -5px;
+}
+.gallery-img img{
+    width: 100%;
+}
+
+.footer{
+    background: #081F32;
+    text-align: center;
+}
+.border-bottom{
+    border: 1px solid rgba(120, 120, 120, 0.242);
+}
+.footer h4{
+    margin: 0;
+    color: #ADB3B9;
+    font-size: 18px;
+    padding: 10px;
+}
+.footer p{
+    color: #ADB3B9;
+    font-size: 12px;
+    padding: 20px;
+    word-spacing: 1px;
+}
+.scanner{
+    padding-bottom: 8px;
+}
